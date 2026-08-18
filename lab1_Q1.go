@@ -1,0 +1,22 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	// fmt.Println("go version go1.26.6 windows/amd64")
+	fmt.Println("Hello kamaljeet")
+	fmt.Println("Integer Operation")
+	a := 15
+	b := 4
+
+	fmt.Printf("Addition: %d \n", a+b)
+	fmt.Printf("Substraction: %d \n", a-b)
+	fmt.Println("Float Operation")
+	c := 10.5
+	d := 2.0
+
+	fmt.Printf("Addition: %f \n", c+d)
+	fmt.Printf("Substraction: %f \n", c-d)
+}
